@@ -12,4 +12,6 @@ Created readme file and added some text.
 - While adding the files using `git add .` the files mentioned in the .gitignore file aren't added. Confirmed it using `git status`.
 
 - Tried `git log` which showed the history of commits.
-- Also tried `git log --oneline` which showed history of commits in short format with just commit hash and commit message and `git log --graph` which showed the history of commits in graph format.
+- Tried `git log --oneline` which showed history of commits in short format with just commit hash and commit message.
+- Executed `git log --graph` which showed the history of commits, diverging and merging in tree format.
+- Also tried `git log --graph --oneline` which showed the history in short tree and more readable format.
